@@ -1,4 +1,4 @@
-public class CrashedFinalizable { 
+public final class CrashedFinalizable { 
 @Override
 public void finalize() { // +1 VIOLATION 
 System.out.print("");
